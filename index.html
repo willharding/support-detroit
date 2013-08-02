@@ -51,7 +51,7 @@ figure img {
 
 .content {
 	background-color: black;
-	padding: 60px 0 100px;
+	padding: 60px 0 80px;
 	bottom: 0px;
 	position: relative;
 	display: block;
@@ -84,6 +84,30 @@ a:hover {
 	color: white;
 }
 
+.btn {
+  background-color: transparent;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  border: 4px solid #43fff5;
+  display: block;
+  color: #43fff5;
+  font-family:'Roboto Slab';
+  font-size: 21px;
+  font-weight: bold;
+  max-width: 350px;
+  padding: 10px 55px;
+  text-decoration: none;
+  margin-top: 60px;
+  text-align: center;
+  }
+
+
+.btn:hover {
+	background-color: #43fff5;	
+	color: black;
+  }
+
 </style>
 <!-- ~~~~~END STYLING~~~~~ -->
 
@@ -96,10 +120,13 @@ a:hover {
 
 	<div class="top"><figure><img class="hero" src="images/hero2.png"></figure></div>
 
-	<SECTION class="content">
-		<div class="tweet"><a href="https://twitter.com/intent/tweet?button_hashtag=SupportDetroit&text=Stay%20strong%2C%20Detroiters..." data-url="http://kalinwood.com/support-detroit"><img src="images/twit2.png" onmouseover="this.src='images/twithov2.png'"onmouseout="this.src='images/twit2.png'"></a></div>
+	<section class="content">
+		
 		<h2 class="container">Recently, Detroit, MI filed for the largest municipal bankruptcy in U.S. history. But you can't break the spirits of the Motor City. There is unwavering hope and unconditional pride in the hearts of her people. Show your support with a tweet.</h2>
-	</SECTION>
+
+		<div class="tweet"><a href="https://twitter.com/intent/tweet?button_hashtag=SupportDetroit&text=Stay%20strong%2C%20Detroiters..." data-url="http://kalinwood.com/support-detroit" class ="btn">Tweet #SupportDetroit</a></div>
+
+	</section>
 
 
 	<section class="foot"><a href="http://kalinwood.github.io/">Built by the shaky hands of Kalin Wood&copy; in 2013</a></section>
