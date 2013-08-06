@@ -86,6 +86,7 @@ a:hover {
   margin-top: 60px;
   text-align: center;
   -webkit-transition: all .25s linear;
+  -webkit-transform: all .25s linear;
   }
 
 
