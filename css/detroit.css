@@ -86,14 +86,15 @@ a:hover {
   margin-top: 60px;
   text-align: center;
   -webkit-transition: all .25s linear;
-  -webkit-transform: all .25s linear;
+  -moz-transition: all .25s linear;
+  -transition: all .25s linear;
   }
 
 
 .btn:hover {
 	background-color: #43fff5;	
-	-moz-border-radius: 16px;
-	-webkit-border-radius: 16px;
+	-moz-border-radius: 32px;
+	-webkit-border-radius: 32px;
   	border-radius: 16px;
 
 color: black;
