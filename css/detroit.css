@@ -85,11 +85,11 @@ a:hover {
   text-decoration: none;
   margin-top: 60px;
   text-align: center;
+  -webkit-transition: all .05s linear;
   }
 
 
 .btn:hover {
 	background-color: #43fff5;	
 	color: black;
-	-webkit-transition: all .05s linear;
   }
