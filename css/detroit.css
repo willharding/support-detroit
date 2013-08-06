@@ -91,5 +91,9 @@ a:hover {
 
 .btn:hover {
 	background-color: #43fff5;	
-	color: black;
+	-moz-border-radius: 16px;
+	-webkit-border-radius: 16px;
+  	border-radius: 16px;
+
+color: black;
   }
