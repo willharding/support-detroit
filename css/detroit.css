@@ -70,7 +70,7 @@ a:hover {
 }
 
 .btn {
-  background-color: transparent;
+  background-color: #000000;
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
   border-radius: 8px;
@@ -85,7 +85,7 @@ a:hover {
   text-decoration: none;
   margin-top: 60px;
   text-align: center;
-  -webkit-transition: all .5s linear;
+  -webkit-transition: all .25s linear;
   }
 
 
